@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.box1 {
+    width: 500px;
+    height: 800px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../box1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card_box {
+    width: 500px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    bottom: 0px;
+    position: absolute;
+    transform: translateY(700px);
+    transition: 0.5s;
+
+}
+
+.text {
+    color: #fff;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box1 h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box2 h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box3 h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box2 {
+    width: 500px;
+    height: 800px;
+    border: 1px solid red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../box2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.box3 {
+    width: 500px;
+    height: 800px;
+    border: 1px solid red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../box3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.btn button {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(79, 71, 71, 0.331);
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+.lorem {
+    text-align: center;
+}
+.cast img{
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box1:hover .card_box {
+    transform: translateY(0px);
+
+}
+
+.box2:hover .card_box {
+    transform: translateY(0px);
+
+}
+
+.box3:hover .card_box {
+    transform: translateY(0px);
+
+}
+.boxing{
+    transition: all 1.5s;
+}
+.boxing:hover {
+    transform: scale(1.1);
+}
